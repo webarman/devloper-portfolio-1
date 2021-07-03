@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.mainWelcome{
+    font-size: 50px;
+}
+.colorName{
+    color: orange;
+}
+
+.flexibleContainer{
+    display: flex;
+    padding-left: 7%;
+}
+.topBanner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.halfSection{
+    width: 50%;
+}
+.Para{
+    width: 80%;
+    text-align: justify;
+}
+.halfSection a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+.halfSection img{
+    width: 85%;
+}
+
+.secondBannar{
+    margin-top: 150px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.secondBannar a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+.experiencesArea{
+    margin-right: 80px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.experiencesDiv{
+    background-color: #f1f1f1;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    border-left: 5px solid lime;
+    padding: 15px;
+    box-shadow: 0px 1px 50px -14px
+}
+
+.mainWelcom{
+    font-size: 35px;
+}
